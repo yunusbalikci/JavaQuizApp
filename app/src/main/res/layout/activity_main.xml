@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
-        android:text="QuizzApp"
+        android:text="QuizzBattle"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,10 +34,24 @@
         android:id="@+id/buttonKurallar"
         android:layout_width="153dp"
         android:layout_height="58dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="145dp"
         android:backgroundTint="#0F3453"
         android:onClick="onClickKural"
         android:text="KURALLAR"
+        android:textSize="20dp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/buttonKategori"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="208dp"
+        android:backgroundTint="#0F3453"
+        android:onClick="onClickKural"
+        android:text="KATEGORİLER"
         android:textSize="20dp"
         app:cornerRadius="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,4 +71,19 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonKurallar" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="329dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="38dp"
+        android:text="QuizzBattle Bilgi yarışması uygulamasına hoşgeldiniz!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

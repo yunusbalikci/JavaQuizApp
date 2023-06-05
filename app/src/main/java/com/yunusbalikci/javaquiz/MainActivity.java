@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
         binding.button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),BayrakSoruActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        binding.buttonKategori.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),KategoriActivity.class);
                 startActivity(intent);
             }
