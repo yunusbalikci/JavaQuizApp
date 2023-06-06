@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,6 +32,41 @@ public class MusicActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putInt("dogru_cevap_sayisi", dogruCevapSayisi[0]);
                 editor.apply();
+                binding.buttonA.setBackgroundColor(Color.GREEN);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonC.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+
+            }
+        });
+
+        binding.buttonB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonA.setBackgroundColor(Color.GREEN);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonC.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonA.setBackgroundColor(Color.GREEN);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonC.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonA.setBackgroundColor(Color.GREEN);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonC.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
             }
         });
 

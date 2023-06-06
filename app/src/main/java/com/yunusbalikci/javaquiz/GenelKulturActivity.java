@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,6 +32,40 @@ public class GenelKulturActivity extends AppCompatActivity {
                 editor.putInt("dogru_cevap_sayisi", dogruCevapSayisi[0]);
                 editor.apply();
 
+                binding.buttonB2.setBackgroundColor(Color.GREEN);
+                binding.buttonA2.setBackgroundColor(Color.RED);
+                binding.buttonC2.setBackgroundColor(Color.RED);
+                binding.buttonD2.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonA2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonB2.setBackgroundColor(Color.GREEN);
+                binding.buttonA2.setBackgroundColor(Color.RED);
+                binding.buttonC2.setBackgroundColor(Color.RED);
+                binding.buttonD2.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonC2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonB2.setBackgroundColor(Color.GREEN);
+                binding.buttonA2.setBackgroundColor(Color.RED);
+                binding.buttonC2.setBackgroundColor(Color.RED);
+                binding.buttonD2.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonD2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonB2.setBackgroundColor(Color.GREEN);
+                binding.buttonA2.setBackgroundColor(Color.RED);
+                binding.buttonC2.setBackgroundColor(Color.RED);
+                binding.buttonD2.setBackgroundColor(Color.RED);
             }
         });
 

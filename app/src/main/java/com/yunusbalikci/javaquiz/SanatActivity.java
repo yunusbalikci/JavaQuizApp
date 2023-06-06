@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -32,8 +33,43 @@ public class SanatActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putInt("dogru_cevap_sayisi", dogruCevapSayisi[0]);
                 editor.apply();
+                binding.buttonC.setBackgroundColor(Color.GREEN);
+                binding.buttonA.setBackgroundColor(Color.RED);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
             }
         });
+
+        binding.buttonA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonC.setBackgroundColor(Color.GREEN);
+                binding.buttonA.setBackgroundColor(Color.RED);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonC.setBackgroundColor(Color.GREEN);
+                binding.buttonA.setBackgroundColor(Color.RED);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+            }
+        });
+
+        binding.buttonD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                binding.buttonC.setBackgroundColor(Color.GREEN);
+                binding.buttonA.setBackgroundColor(Color.RED);
+                binding.buttonB.setBackgroundColor(Color.RED);
+                binding.buttonD.setBackgroundColor(Color.RED);
+            }
+        });
+
 
         binding.imageView7.setOnClickListener(new View.OnClickListener() {
             @Override
