@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".GenelKulturActivity">
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="95dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#0F3453"
+        android:text="BİTİR"
+        android:textSize="20sp"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA2"
+        app:layout_constraintVertical_bias="0.986" />
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="129dp"
@@ -15,19 +29,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="87dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="16dp"
-        android:text="Sıradaki soruya geçmek için tıklayınız."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonD2"

@@ -34,7 +34,7 @@
         android:id="@+id/textView3"
         android:layout_width="382dp"
         android:layout_height="34dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="13dp"
         android:text="Kurallar:Her soru cevaplandıktan sonra geçilmelidir."
@@ -48,7 +48,7 @@
         android:id="@+id/textView10"
         android:layout_width="384dp"
         android:layout_height="65dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="13dp"
         android:text="Soruların cevaplarına bakmak için kategoriler butonuna tıklayarak sorular ve cavaplara erişebilirsiniz."
@@ -63,7 +63,7 @@
         android:id="@+id/textView19"
         android:layout_width="384dp"
         android:layout_height="65dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="112dp"
         android:layout_marginEnd="13dp"
         android:text="SORULARA GERİ DÖNÜŞ HAKKINIZ YOKTUR!"
@@ -98,9 +98,38 @@
         android:text="Bilgi Yarışması Oyununa Hoşgeldiniz"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:text="BAŞLAMAYA HAZIR MISIN?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="116dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="153dp"
+        android:backgroundTint="#0F3453"
+        android:text="BAŞLA"
+        android:textSize="20sp"
+        app:cornerRadius="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

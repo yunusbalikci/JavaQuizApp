@@ -6,17 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".EdebiyatActivity">
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginEnd="11dp"
-        android:text="Sıradaki soruya geçmek için tıklayınız."
-        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#0F3453"
+        android:text="BİTİR"
+        android:textSize="20sp"
+        app:cornerRadius="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonA7" />
 
     <ImageView
         android:id="@+id/imageView19"

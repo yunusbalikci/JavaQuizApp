@@ -41,7 +41,7 @@
             android:layout_width="375dp"
             android:layout_height="63dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="2dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="2dp"
             android:backgroundTint="#B7C4CF"
@@ -58,7 +58,7 @@
             android:layout_width="375dp"
             android:layout_height="63dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="2dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="2dp"
             android:backgroundTint="#B7C4CF"
@@ -75,7 +75,7 @@
             android:layout_width="375dp"
             android:layout_height="63dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="2dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="2dp"
             android:backgroundTint="#B7C4CF"
@@ -92,7 +92,7 @@
             android:layout_width="375dp"
             android:layout_height="63dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="2dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="50dp"
             android:backgroundTint="#B7C4CF"
@@ -121,19 +121,6 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView13"
             tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="87dp"
-            android:layout_marginTop="82dp"
-            android:layout_marginEnd="88dp"
-            android:text="Sıradaki soruya geçmek için tıklayınız."
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/buttonD" />
-
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="129dp"
@@ -153,5 +140,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8"
             app:srcCompat="@drawable/fetih" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="92dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#0F3453"
+            android:text="BİTİR"
+            android:textSize="20sp"
+            app:cornerRadius="18dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonD" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
